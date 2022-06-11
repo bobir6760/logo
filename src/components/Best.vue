@@ -43,17 +43,20 @@ export default {
 }
 .best-info__image {
   width: 100%;
+  cursor: pointer;
 }
 .best-info__title {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 .best-info__subtitle {
   font-size: 18px;
 }
 .best-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .best-info__title {

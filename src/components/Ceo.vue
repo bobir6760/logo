@@ -72,11 +72,13 @@ export default {
 }
 .ceo-wrapper__image img {
   width: 70%;
+  cursor: pointer;
 }
 .ceo-info__image img {
   object-fit: contain;
   width: 100px;
   height: 100px;
+  cursor: pointer;
 }
 .ceo-info {
   display: flex;
@@ -91,10 +93,15 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 .ceo-info__title {
   font-size: 25px;
   font-weight: bold;
+  cursor: pointer;
+}
+.ceo-info__title:hover {
+  text-decoration: underline;
 }
 .ceo-info__subtitle {
   font-size: 18px;

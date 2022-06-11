@@ -40,16 +40,19 @@ export default {
 }
 .logo-image img {
   width: 100%;
+  cursor: pointer;
 }
 .logo-wrapper__image {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  cursor: pointer;
 }
 .logo-wrapper__title {
   text-align: center;
   font-size: 30px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .logo-wrapper__title {

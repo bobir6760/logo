@@ -65,6 +65,7 @@ export default {
 .navbar-wrapper__subtitle {
   display: flex;
   gap: 60px;
+  cursor: pointer;
   span {
     color: #4385f5;
   }
@@ -77,9 +78,16 @@ export default {
   display: flex;
   flex-direction: column;
   text-align: center;
+  cursor: pointer;
 }
 .navbar-text {
   padding-bottom: 10px;
+}
+.navbar-item__title {
+  cursor: pointer;
+}
+.navbar-item__subtitle {
+  cursor: pointer;
 }
 .navbar-btn {
   padding: 10px 20px;
@@ -89,13 +97,17 @@ export default {
 }
 .navbar-btn:active {
   color: black;
-  background: white;
+}
+.navbar-btn:hover {
+  background: #e4b12b;
+  transition: 0.3s;
 }
 .navbar-wrapper__title {
   font-size: 60px;
   padding: 20px 50px 25px 50px;
   background: #4385f5;
   color: white;
+  cursor: pointer;
 }
 .navbar-wrapper__block {
   display: flex;
@@ -105,13 +117,16 @@ export default {
   font-size: 40px;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 .navbar-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 .navbar-subtitle {
   font-size: 25px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .navbar-block__btn {
   margin-left: 10px;
@@ -123,8 +138,10 @@ export default {
   font-size: 15px;
   cursor: pointer;
 }
-.navbar-block__btn:active {
-  color: black;
+.navbar-block__btn:hover {
+  color: white;
+  transition: 0.7s;
+  box-shadow: inset 300px 0 0 0 #e4b12b;
 }
 .navbar-wrapper__block input {
   padding: 10px 100px 10px 5px;

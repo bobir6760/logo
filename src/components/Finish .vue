@@ -70,19 +70,27 @@ export default {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 40px;
+  cursor: pointer;
+}
+.finish-info__title:hover {
+  text-decoration: underline crimson;
+  transition: 0.7s;
 }
 .finish-title {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  cursor: pointer;
   span {
     color: #4385f5;
   }
 }
+
 .finish-wrapper__title {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  cursor: pointer;
 }
 .finish-btn {
   padding: 15px 35px;
@@ -91,8 +99,11 @@ export default {
   border: none;
   cursor: pointer;
 }
-.finish-btn:active {
-  color: black;
+.finish-btn:hover {
+  color: white;
+  transition: 0.9s;
+  box-shadow: inset 300px 0 0 0 black;
+  border-radius: 10px;
 }
 .finish-wrapper__btn {
   display: flex;
@@ -114,13 +125,16 @@ export default {
 .finish-item__title {
   font-size: 18px;
   padding-right: 20px;
+  cursor: pointer;
 }
 .finish-item__image img {
   width: 100%;
   padding-left: 10px;
+  cursor: pointer;
 }
 .finish-block__title {
   font-size: 18px;
+  cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   .finish-info__title {

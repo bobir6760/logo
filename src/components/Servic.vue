@@ -104,9 +104,11 @@ export default {
 .servic-info__title {
   font-size: 40px;
   font-weight: bold;
+  cursor: pointer;
 }
 .servic-info__subtitle {
   font-size: 13px;
+  cursor: pointer;
 }
 .servic-block {
   display: flex;
@@ -118,6 +120,7 @@ export default {
 }
 .servic-item__title {
   font-size: 20px;
+  cursor: pointer;
 }
 .servic-wrapper__item {
   display: grid;
@@ -126,6 +129,7 @@ export default {
 }
 .servic-wrapper__image {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .servic-wrapper__item {
